@@ -4,7 +4,7 @@
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -21,7 +21,7 @@
 }
 
 .wrapper{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@
 }
 
 /* responsive media query */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 640px) {
     .wrapper{
         width: 90%;
         margin: 0 auto;
@@ -50,4 +50,8 @@
     #cart{
         display: block;
     }
+
+    /* .banner{
+        flex-direction: column-reverse;
+    } */
 }
