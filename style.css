@@ -58,6 +58,13 @@
     filter: drop-shadow(5px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
+.join{
+    background-image: url('assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+}
+
 
 
 /* responsive media query */
