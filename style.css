@@ -48,6 +48,16 @@
     align-items: center;
 }
 
+.badge{
+    top: -20%;
+    left: -48%
+    /* margin-top: -135px; */
+    /* margin-left: -245px;     */
+}
+.badge img{
+    filter: drop-shadow(5px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
 
 
 /* responsive media query */
